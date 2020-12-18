@@ -17,9 +17,11 @@ function Portfolio({ link, photo, slug, title, txt }) {
             {title} <FontAwesomeIcon icon={faExternalLinkSquareAlt} />{" "}
           </h6>
         </a>
-        <span className="parrafo">{txt}</span>
       </div>
       <img className="project-image" src={photo} alt={slug} />
+      <div className="caption-project">
+        <span className="parrafo">{txt}</span>
+      </div>
     </div>
   );
 }

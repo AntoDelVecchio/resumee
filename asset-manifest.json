@@ -1,20 +1,34 @@
 {
   "files": {
-    "main.css": "/resumee/static/css/main.b7582804.chunk.css",
-    "main.js": "/resumee/static/js/main.737d3bf1.chunk.js",
-    "main.js.map": "/resumee/static/js/main.737d3bf1.chunk.js.map",
+    "main.css": "/resumee/static/css/main.c9faa4f8.chunk.css",
+    "main.js": "/resumee/static/js/main.62bafebb.chunk.js",
+    "main.js.map": "/resumee/static/js/main.62bafebb.chunk.js.map",
     "runtime-main.js": "/resumee/static/js/runtime-main.6084c15e.js",
     "runtime-main.js.map": "/resumee/static/js/runtime-main.6084c15e.js.map",
-    "static/js/2.cca6b68c.chunk.js": "/resumee/static/js/2.cca6b68c.chunk.js",
-    "static/js/2.cca6b68c.chunk.js.map": "/resumee/static/js/2.cca6b68c.chunk.js.map",
+    "static/js/2.3fbcce49.chunk.js": "/resumee/static/js/2.3fbcce49.chunk.js",
+    "static/js/2.3fbcce49.chunk.js.map": "/resumee/static/js/2.3fbcce49.chunk.js.map",
     "index.html": "/resumee/index.html",
-    "static/css/main.b7582804.chunk.css.map": "/resumee/static/css/main.b7582804.chunk.css.map",
-    "static/js/2.cca6b68c.chunk.js.LICENSE.txt": "/resumee/static/js/2.cca6b68c.chunk.js.LICENSE.txt"
+    "static/css/main.c9faa4f8.chunk.css.map": "/resumee/static/css/main.c9faa4f8.chunk.css.map",
+    "static/js/2.3fbcce49.chunk.js.LICENSE.txt": "/resumee/static/js/2.3fbcce49.chunk.js.LICENSE.txt",
+    "static/media/01-photography.fdfcc310.png": "/resumee/static/media/01-photography.fdfcc310.png",
+    "static/media/02-musicBlog.55e227eb.png": "/resumee/static/media/02-musicBlog.55e227eb.png",
+    "static/media/03-gastronomyBlog.5e3401be.png": "/resumee/static/media/03-gastronomyBlog.5e3401be.png",
+    "static/media/04-travelBlog.b0007d10.png": "/resumee/static/media/04-travelBlog.b0007d10.png",
+    "static/media/07-podcast.bffdf003.png": "/resumee/static/media/07-podcast.bffdf003.png",
+    "static/media/08-gifos.a90cde4b.png": "/resumee/static/media/08-gifos.a90cde4b.png",
+    "static/media/09-reservaAlojamientos.38d7670f.png": "/resumee/static/media/09-reservaAlojamientos.38d7670f.png",
+    "static/media/10-rewardsStore.979e38b2.png": "/resumee/static/media/10-rewardsStore.979e38b2.png",
+    "static/media/bootstrap.527d0fc0.svg": "/resumee/static/media/bootstrap.527d0fc0.svg",
+    "static/media/foundation.5e56b258.png": "/resumee/static/media/foundation.5e56b258.png",
+    "static/media/hearth.9b940d8c.svg": "/resumee/static/media/hearth.9b940d8c.svg",
+    "static/media/react.ae626225.svg": "/resumee/static/media/react.ae626225.svg",
+    "static/media/sass.8351205a.svg": "/resumee/static/media/sass.8351205a.svg",
+    "static/media/work.c9075835.svg": "/resumee/static/media/work.c9075835.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6084c15e.js",
-    "static/js/2.cca6b68c.chunk.js",
-    "static/css/main.b7582804.chunk.css",
-    "static/js/main.737d3bf1.chunk.js"
+    "static/js/2.3fbcce49.chunk.js",
+    "static/css/main.c9faa4f8.chunk.css",
+    "static/js/main.62bafebb.chunk.js"
   ]
 }

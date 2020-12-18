@@ -1,6 +1,23 @@
 import React from "react";
+import Lottie from "react-lottie";
+import animationData from "./../../lotties/welcome.json";
 
 function Home() {
+
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
+  const welcomeImage = {
+    width: "50%",
+    minWidth: "20rem"
+  };
+
   return (
     <section id="home">
       <article className="dates">
@@ -14,11 +31,7 @@ function Home() {
           <span>Mendoza, Argentina</span>
         </div>
       </article>
-      <img
-        className="img-home"
-        src="https://placekitten.com/640/360"
-        alt="cat"
-      />
+      <Lottie options={defaultOptions} style={welcomeImage} />
     </section>
   );
 }

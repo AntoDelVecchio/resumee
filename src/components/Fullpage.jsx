@@ -7,28 +7,6 @@ import ProjectsCarousel from "../components/main/ProjectsCarousel";
 import Contact from "../components/main/Contact";
 import ReactFullpage from "@fullpage/react-fullpage";
 
-// function GeneralContainer() {
-//   <ReactFullpage
-//     //fullpage options
-//     licenseKey = {'YOUR_KEY_HERE'}
-//     scrollingSpeed = {1000} /* Options here */
-
-//     render={({ state, fullpageApi }) => {
-//       return (
-//         <div>
-//           <Header />
-//           <Home />
-//           <About />
-//           <SkillsContainer />
-//           <ProjectsCarousel />
-//           <Contact />
-//         </div>
-//       );
-//     }}
-//    />
-// }
-// );
-
 function Fullpage() {
   return (
     <ReactFullpage
@@ -45,23 +23,12 @@ function Fullpage() {
         "Portfolio",
         "Contact"
       ]}
-      navigationTooltipsColor={["black"]}
       showActiveTooltip={true}
       slidesNavPosition={"bottom"}
-      sectionsColor={["#f9f9f9", "#d9d9d9", "#f9f9f9", "#d9d9d9", "#f9f9f9"]}
-      // anchors={["home", "about", "skills", "portfolio", "contact"]}
-      // sectionSelector={SECTION_SEL}
-      // onLeave={this.onLeave.bind(this)}
-      // sectionsColor={this.state.sectionsColor}
+      sectionsColor={["#FFEFEF", "#FF7F7F", "#FFEFEF", "#FF7F7F", "#FFEFEF"]}
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>
-            {/* <div className="section">
-              <p>Section 1 (welcome to fullpage.js)</p>
-              <button onClick={() => fullpageApi.moveSectionUp()}>
-                Click me to move down
-              </button>
-            </div> */}
             <div className="section">
               <Home />
             </div>

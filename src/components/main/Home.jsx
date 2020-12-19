@@ -26,7 +26,7 @@ function Home() {
         </h1>
         <article className="line-between"></article>
         <div className="other-dates">
-          <span>Web developer in progress</span>
+          <span>Front-end developer</span>
           <span>27 years old</span>
           <span>Mendoza, Argentina</span>
         </div>

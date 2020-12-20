@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/resumee/static/css/main.87a23437.chunk.css",
-    "main.js": "/resumee/static/js/main.c3f198ad.chunk.js",
-    "main.js.map": "/resumee/static/js/main.c3f198ad.chunk.js.map",
+    "main.css": "/resumee/static/css/main.92e0a2c4.chunk.css",
+    "main.js": "/resumee/static/js/main.cb5b31ae.chunk.js",
+    "main.js.map": "/resumee/static/js/main.cb5b31ae.chunk.js.map",
     "runtime-main.js": "/resumee/static/js/runtime-main.6084c15e.js",
     "runtime-main.js.map": "/resumee/static/js/runtime-main.6084c15e.js.map",
-    "static/js/2.3fbcce49.chunk.js": "/resumee/static/js/2.3fbcce49.chunk.js",
-    "static/js/2.3fbcce49.chunk.js.map": "/resumee/static/js/2.3fbcce49.chunk.js.map",
+    "static/js/2.c96c043c.chunk.js": "/resumee/static/js/2.c96c043c.chunk.js",
+    "static/js/2.c96c043c.chunk.js.map": "/resumee/static/js/2.c96c043c.chunk.js.map",
     "index.html": "/resumee/index.html",
-    "static/css/main.87a23437.chunk.css.map": "/resumee/static/css/main.87a23437.chunk.css.map",
-    "static/js/2.3fbcce49.chunk.js.LICENSE.txt": "/resumee/static/js/2.3fbcce49.chunk.js.LICENSE.txt",
+    "static/css/main.92e0a2c4.chunk.css.map": "/resumee/static/css/main.92e0a2c4.chunk.css.map",
+    "static/js/2.c96c043c.chunk.js.LICENSE.txt": "/resumee/static/js/2.c96c043c.chunk.js.LICENSE.txt",
     "static/media/01-photography.fdfcc310.png": "/resumee/static/media/01-photography.fdfcc310.png",
     "static/media/02-musicBlog.55e227eb.png": "/resumee/static/media/02-musicBlog.55e227eb.png",
     "static/media/03-gastronomyBlog.5e3401be.png": "/resumee/static/media/03-gastronomyBlog.5e3401be.png",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.6084c15e.js",
-    "static/js/2.3fbcce49.chunk.js",
-    "static/css/main.87a23437.chunk.css",
-    "static/js/main.c3f198ad.chunk.js"
+    "static/js/2.c96c043c.chunk.js",
+    "static/css/main.92e0a2c4.chunk.css",
+    "static/js/main.cb5b31ae.chunk.js"
   ]
 }

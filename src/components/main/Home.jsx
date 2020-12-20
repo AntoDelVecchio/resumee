@@ -1,6 +1,7 @@
 import React from "react";
 import Lottie from "react-lottie";
 import animationData from "./../../lotties/welcome.json";
+import { motion } from "framer-motion";
 
 function Home() {
 
@@ -13,10 +14,10 @@ function Home() {
     }
   };
 
-  const welcomeImage = {
-    width: "50%",
-    minWidth: "20rem"
-  };
+  // const welcomeImage = {
+  //   width: "50%",
+  //   minWidth: "20rem"
+  // };
 
   return (
     <section id="home">
@@ -31,7 +32,19 @@ function Home() {
           <span>Mendoza, Argentina</span>
         </div>
       </article>
-      <Lottie options={defaultOptions} style={welcomeImage} />
+      {/* <Lottie options={defaultOptions} style={welcomeImage} /> */}
+      <motion.div
+        className="welcome-image"
+        initial={{ scale: 0 }}
+        animate={{ rotate: 360, scale: 1 }}
+        transition={{
+          type: "spring",
+          stiffness: 100,
+          damping: 20
+        }}
+      >
+        <Lottie options={defaultOptions} />
+      </motion.div>
     </section>
   );
 }

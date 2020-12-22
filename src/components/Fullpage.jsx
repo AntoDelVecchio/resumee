@@ -23,7 +23,7 @@ function Fullpage() {
         "Portfolio",
         "Contact"
       ]}
-      showActiveTooltip={true}
+      showActiveTooltip={false}
       slidesNavPosition={"bottom"}
       sectionsColor={["#FFEFEF", "#FF7F7F", "#FFEFEF", "#FF7F7F", "#FFEFEF"]}
       render={({ state, fullpageApi }) => {

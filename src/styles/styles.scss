@@ -13,7 +13,7 @@
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li:hover a.active span,
 .fp-slidesNav ul li a.active span {
-  background-color: #f8e4e4;
+  background-color: #060A24;
   
 }
 
@@ -49,61 +49,60 @@
     @include respond-to(tablet-screen, desktop-screen, xlg-screen){
       align-items: center;  
     }
+    .dates{
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      text-align: left;
+      margin: 3rem 1rem;
+      @include respond-to(desktop-screen, xlg-screen){
+        justify-content: flex-start;
+      }
+      @include respond-to(xlg-screen){
+        width: 65%;
+        margin: unset;
+      }
+      .name{
+        // color: #FF7F7F;
+        color: rgb(220,236,116);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: .5rem;
+        font-size: 3rem;
+        text-transform: capitalize;
+        width: 60%;
+        max-width: 250px;
+        @include respond-to(xlg-screen){
+          font-size: 4rem;
+          margin-left: 1rem;
+        }
+      }
+      .other-dates{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        font-weight: 600;
+        color: #060A24;
+        width: 30%;
+        margin-left: 1.2rem;
+        border-left: 2px dotted #060A24;
+        padding: 0 0 0 .7rem;
+        @include respond-to(xlg-screen){
+            margin-left: 2rem;
+            padding: 1rem;
+        }
+      }
+    }
+    .welcome-image{
+      width: 100%;
+      margin: 12rem 0 0 0;
+      background: #dcec74a1;
+      @include respond-to(tablet-screen, desktop-screen, xlg-screen){
+        max-width: 500px;
+      }
+    }
   }
 
-  .dates{
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    text-align: left;
-    margin: 3rem 0;
-    @include respond-to(tablet-screen){
-      margin: 5rem 0 0 2rem;
-    }
-    @include respond-to(tablet-screen ,desktop-screen, xlg-screen){
-      width: 50%;
-      justify-content: flex-start;
-    }
-    @include respond-to(desktop-screen, xlg-screen){
-      margin: unset;
-    }
-    .name{
-      color: #FF7F7F;
-      font-size: 2.3rem;
-      text-transform: capitalize;
-      width: 50%;
-      max-width: 250px;
-      @include respond-to(desktop-screen, xlg-screen){
-        margin-left: 1rem;
-      }
-    }
-    .line-between{
-      content: "";
-      display: block;
-      margin: 2rem 0;
-      border-right: 2px dotted #060A24;
-    }
-    .other-dates{
-      display: flex;
-      flex-direction: column;
-      align-self: center;
-      font-weight: 600;
-      color: #060A24;
-      width: 30%;
-      margin: 1rem;
-      @include respond-to(desktop-screen, xlg-screen){
-          align-self: center;
-      }
-    }
-  }
-  .welcome-image{
-    width: 100%;
-    @include respond-to(tablet-screen, desktop-screen, xlg-screen){
-      width: 50%;
-      min-width: 400px;
-    }
-  }
   .title-section{
     width: 100%;
     text-transform: capitalize;
@@ -256,10 +255,10 @@
     width: 13rem;
   }
   .email{
-      text-decoration: none;
-      color: #FFFFFF;
-      font-size: .9rem;
-      font-weight: 700;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: .9rem;
+    font-weight: 700;
   }
   &:hover{
     box-shadow: 1px 1px 5px 2px rgba(170, 170, 170, 0.603);
@@ -284,6 +283,9 @@
       .fa-linkedin-in, .fa-github{
           font-size: 1.5rem;
       }
+    }
+    &:hover{
+      box-shadow: 1px 1px 5px 2px rgba(170, 170, 170, 0.603);
     }
   }
 }

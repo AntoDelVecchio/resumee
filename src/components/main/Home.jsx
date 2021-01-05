@@ -14,33 +14,36 @@ function Home() {
     }
   };
 
-  // const welcomeImage = {
-  //   width: "50%",
-  //   minWidth: "20rem"
-  // };
-
   return (
     <section id="home">
       <article className="dates">
         <h1 className="name">
-          antonella <br></br> del vecchio
+          antonella del vecchio
         </h1>
-        <article className="line-between"></article>
-        <div className="other-dates">
+        <motion.div 
+          className="other-dates"
+          initial={{ x: 100 }}
+          animate={{ x: 0 }}
+          transition={{
+            type: "spring",
+            stiffness: 80,
+            damping: 10
+          }}
+        >
           <span>Front-end developer</span>
           <span>27 years old</span>
           <span>Mendoza, Argentina</span>
-        </div>
+        </motion.div>
       </article>
-      {/* <Lottie options={defaultOptions} style={welcomeImage} /> */}
       <motion.div
         className="welcome-image"
         initial={{ scale: 0 }}
         animate={{ rotate: 360, scale: 1 }}
         transition={{
           type: "spring",
-          stiffness: 100,
-          damping: 20
+          stiffness: 150,
+          damping: 50,
+          mass: 20
         }}
       >
         <Lottie options={defaultOptions} />

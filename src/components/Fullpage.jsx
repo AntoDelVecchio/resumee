@@ -25,7 +25,8 @@ function Fullpage() {
       ]}
       showActiveTooltip={false}
       slidesNavPosition={"bottom"}
-      sectionsColor={["#FFEFEF", "#FF7F7F", "#FFEFEF", "#FF7F7F", "#FFEFEF"]}
+      sectionsColor={["#f3f3e9", "rgb(220,236,116)", "#f3f3e9", "rgb(220,236,116)", "#f3f3e9"]}
+      // sectionsColor={[ "#ebfbbc", "rgb(222,252,98)", "#ebfbbc", "rgb(222,252,98)", "#ebfbbc"]}
       render={({ state, fullpageApi }) => {
         return (
           <ReactFullpage.Wrapper>

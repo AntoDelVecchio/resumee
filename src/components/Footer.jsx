@@ -7,7 +7,7 @@ function Footer({ moveToTop }) {
     <footer className="footer">
       <span className="p">
         {" "}
-        &copy; My Portfolio 2020 made with{" "}
+        &copy; My Portfolio 2021 made with{" "}
         <img className="icon" src={workIcon} alt="work" /> &{" "}
         <img className="icon" src={loveIcon} alt="love" />.
       </span>
